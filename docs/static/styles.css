@@ -269,6 +269,7 @@ footer span:not(:last-child):after {
      color: rgba(0, 0, 0, 0.74);
      font-size: 14px;
      line-height: 20px;
+     background: #f4f4f4;
    }
    
    h1 {
@@ -368,7 +369,7 @@ footer span:not(:last-child):after {
      padding-top: 60px;
      padding-bottom: 50px;
 
-     background-color: #fff;
+     /* background-color: #fff; */
      text-transform: uppercase;
    }
    
@@ -648,7 +649,10 @@ footer span:not(:last-child):after {
 
 
 
+   .w-nav {
 
+    background: #f4f4f4;
+}
 
 
 
