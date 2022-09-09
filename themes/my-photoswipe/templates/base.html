@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="{{ settings.html_language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>{{ album.title|striptags }} - {{ settings.title }}</title>
+    <meta name="description" content="">
+    <meta name="author" content="{{ album.author }}">
+    <meta name="viewport" content="width=device-width">
+    {% include 'default_head.html' %}
+    {% block extra_head %}{% endblock extra_head %}
+    <link rel="stylesheet" href="{{ theme.url }}/styles.css">
+    {% if user_css %}
+    <link rel="stylesheet" href="{{ theme.url }}/{{ user_css }}">
+    {% endif %}
+    {% include 'analytics.html' %}
+  </head>
+  <body>
+    {% include 'decrypt.html' %}
+    {% include 'gtm.html' %}
+    <div class="container">
+      <!-- <h1><a href="{{ album.index_url }}">{{ index_title }}aaa</a></h1> -->
+
+
+
+
+
+      <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation-bar w-nav">
+        <div class="w-container">
+          <a href="/" aria-current="page" class="brand-link w-nav-brand w--current" aria-label="home"><h1 class="brand-text">MORREENE</h1></a>
+
+
+
+          <nav role="navigation" class="navigation-menu w-nav-menu">
+            <a href="/" aria-current="page" class="navigation-link w-nav-link w--current" style="max-width: 940px;">Gallery</a>
+            <a href="/about.html" class="navigation-link w-nav-link" style="max-width: 940px;">About</a>
+          </nav>
+          <div class="hamburger-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
+            <div class="w-icon-nav-menu"></div>
+          </div>
+        </div>
+        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      {% include 'links.html' %}
+
+      <div class="content">
+        {% include 'breadcrumb.html' %}
+        {% block content %}{% endblock %}
+
+        {% if album.description %}
+        <div id="description" class="row">
+        {{ album.description }}
+        </div>
+        {% endif %}
+      </div>
+
+      {% include 'footer.html' %}
+      {% block extra_footer %}{% endblock %}
+  </div>
+  {% include 'piwik.html' %}
+  </body>
+</html>

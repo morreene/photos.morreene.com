@@ -1,0 +1,10 @@
+{% if album.breadcrumb %}
+  <div class="album-title">
+    <h2>
+      {% for url, title in album.breadcrumb %}
+        <!-- <a href="{{ url }}">{{ title }}</a>{% if not loop.last %} » {% endif %} -->
+        <p>Album: {{ title }}</p>
+      {% endfor -%}
+    </h2>
+  </div>
+{% endif %}
