@@ -252,7 +252,7 @@ footer span:not(:last-child):after {
 
 /* Generated on: Fri Nov 13 2020 00:08:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
-   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
+   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
    ========================================================================== */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /* html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:none}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0} */
@@ -271,7 +271,7 @@ footer span:not(:last-child):after {
      line-height: 20px;
      background: #f4f4f4;
    }
-   
+
    h1 {
      margin-top: 0px;
      margin-bottom: 10px;
@@ -279,7 +279,7 @@ footer span:not(:last-child):after {
      line-height: 30px;
      font-weight: 700;
    }
-   
+
    h2 {
      margin-top: 0px;
      margin-bottom: 10px;
@@ -287,7 +287,7 @@ footer span:not(:last-child):after {
      line-height: 26px;
      font-weight: 700;
    }
-   
+
    h3 {
      margin-top: 0px;
      margin-bottom: 10px;
@@ -295,7 +295,7 @@ footer span:not(:last-child):after {
      line-height: 22px;
      font-weight: 700;
    }
-   
+
    h4 {
      margin-top: 0px;
      margin-bottom: 10px;
@@ -303,7 +303,7 @@ footer span:not(:last-child):after {
      line-height: 18px;
      font-weight: 700;
    }
-   
+
    h5 {
      margin-top: 0px;
      margin-bottom: 10px;
@@ -311,7 +311,7 @@ footer span:not(:last-child):after {
      line-height: 16px;
      font-weight: 700;
    }
-   
+
    h6 {
      margin-top: 0px;
      margin-bottom: 10px;
@@ -320,23 +320,23 @@ footer span:not(:last-child):after {
      font-weight: 700;
      text-transform: uppercase;
    }
-   
+
    p {
      margin-top: 0px;
      margin-bottom: 10px;
      font-size: 14px;
    }
-   
+
    a {
      color: #bf3a30;
      text-decoration: none;
    }
-   
+
    a:hover {
      color: #bf3a30;
      text-decoration: none;
    }
-   
+
    blockquote {
      margin-bottom: 10px;
      padding: 10px 20px;
@@ -344,7 +344,7 @@ footer span:not(:last-child):after {
      font-size: 18px;
      line-height: 22px;
    }
-   
+
    .navigation-link {
      padding-top: 7px;
      padding-bottom: 7px;
@@ -354,15 +354,15 @@ footer span:not(:last-child):after {
      line-height: 18px;
      letter-spacing: 1px;
    }
-   
+
    .navigation-link:hover {
      color: #333;
    }
-   
+
    .navigation-link.w--current {
      color: #333;
    }
-   
+
    .navigation-bar {
      /* padding-top: 70px;
      padding-bottom: 70px; */
@@ -372,26 +372,26 @@ footer span:not(:last-child):after {
      /* background-color: #fff; */
      text-transform: uppercase;
    }
-   
+
    .navigation-menu {
      margin-top: 3px;
    }
-   
+
    .brand-text {
      margin-top: 0px;
      margin-bottom: 0px;
-     font-family: Montserrat, sans-serif;
-     font-size: 33px;
+     font-family: "Roboto", sans-serif;
+     font-size: 32px;
      line-height: 36px;
-     font-weight: 400;
+     font-weight: 700;
    }
-   
+
    .section {
      position: relative;
      padding-bottom: 63px;
      background-color: #fff;
    }
-   
+
    .social-icon-link {
      margin-right: 2px;
      margin-left: 2px;
@@ -400,17 +400,17 @@ footer span:not(:last-child):after {
      -webkit-transition: opacity 300ms ease;
      transition: opacity 300ms ease;
    }
-   
+
    .social-icon-link:hover {
      opacity: 0.3;
    }
-   
+
    .footer {
      padding-top: 48px;
      padding-bottom: 48px;
      text-align: center;
    }
-   
+
    .footer-text {
      margin-top: 10px;
      margin-bottom: 5px;
@@ -420,7 +420,7 @@ footer span:not(:last-child):after {
      letter-spacing: 1px;
      text-transform: uppercase;
    }
-   
+
    .photo-link-block {
      width: 100%;
      -webkit-transition: opacity 200ms ease, -webkit-transform 200ms ease;
@@ -435,7 +435,7 @@ footer span:not(:last-child):after {
      text-decoration: none;
      text-transform: uppercase;
    }
-   
+
    .photo-link-block:hover {
      opacity: 0.8;
      -webkit-transform: scale(1.02);
@@ -444,25 +444,25 @@ footer span:not(:last-child):after {
      color: #333;
      text-decoration: none;
    }
-   
+
    .blog-title {
      margin-bottom: 5px;
      font-family: Montserrat, sans-serif;
      font-weight: 400;
      letter-spacing: 0px;
    }
-   
+
    .byline {
      margin-bottom: 20px;
      color: #ccc;
      font-size: 12px;
      line-height: 18px;
    }
-   
+
    .sidebar-title {
      margin-bottom: 29px;
    }
-   
+
    .blog-link {
      display: block;
      -webkit-transition: color 200ms ease;
@@ -470,29 +470,29 @@ footer span:not(:last-child):after {
      color: #333;
      text-decoration: none;
    }
-   
+
    .blog-link:hover {
      text-decoration: none;
    }
-   
+
    .sidebar-divider {
      height: 1px;
      margin-top: 25px;
      margin-bottom: 25px;
      border-top: 1px solid #ccc;
    }
-   
+
    .about-photo {
      padding-right: 30px;
    }
-   
+
    .title {
      margin-top: 13px;
      margin-bottom: 33px;
      font-family: Montserrat, sans-serif;
      font-size: 12px;
    }
-   
+
    .photo-page-title {
      font-family: Montserrat, sans-serif;
      font-size: 20px;
@@ -501,11 +501,11 @@ footer span:not(:last-child):after {
      text-align: left;
      text-transform: uppercase;
    }
-   
+
    .photo-page-title.center {
      text-align: center;
    }
-   
+
    .photo-info-text {
      margin-bottom: 18px;
      font-family: Montserrat, sans-serif;
@@ -514,130 +514,130 @@ footer span:not(:last-child):after {
      line-height: 17px;
      text-transform: uppercase;
    }
-   
+
    .gallery-wrapper {
      margin-top: 56px;
    }
-   
+
    .blog-list-item {
      min-height: 100px;
    }
-   
+
    .blog-info-text {
      color: silver;
      font-size: 12px;
      text-transform: uppercase;
    }
-   
+
    .small-blog-title {
      margin-bottom: 0px;
      font-family: Montserrat, sans-serif;
      font-size: 14px;
      font-weight: 400;
    }
-   
+
    .small-blog-link {
      margin-bottom: 21px;
      color: #333;
    }
-   
+
    .small-blog-link:hover {
      text-decoration: none;
    }
-   
+
    .small-list {
      text-align: right;
    }
-   
+
    .photo-row {
      margin-bottom: 60px;
      padding-bottom: 60px;
      border-bottom: 1px solid rgba(0, 0, 0, 0.17);
    }
-   
+
    .description-text {
      margin-bottom: 23px;
    }
-   
+
    @media screen and (max-width: 991px) {
      .navigation-link {
        padding: 9px 0px;
        color: #ecf0f1;
        text-align: center;
      }
-   
+
      .navigation-link:hover {
        color: #fff;
      }
-   
+
      .hamburger-button {
        padding: 7px;
      }
-   
+
      .hamburger-button.w--open {
        background-color: #000;
      }
-   
+
      .navigation-menu {
        margin-top: 0px;
        padding-top: 26px;
        padding-bottom: 26px;
        background-color: #000;
      }
-   
+
      .section {
        padding-bottom: 0px;
      }
    }
-   
+
    @media screen and (max-width: 767px) {
      .navigation-bar {
        z-index: 1000;
        padding-top: 24px;
        padding-bottom: 24px;
      }
-   
+
      .hamburger-button {
        padding: 10px;
      }
-   
+
      .brand-text {
        margin-top: 5px;
      }
-   
+
      .footer {
        padding-top: 31px;
        padding-bottom: 31px;
      }
-   
+
      .about-photo {
        margin-bottom: 32px;
        padding-right: 0px;
      }
-   
+
      .blog-list-item {
        margin-bottom: 26px;
      }
-   
+
      .blog-info-text {
        margin-bottom: 7px;
      }
-   
+
      .small-list {
        margin-top: 56px;
        text-align: center;
      }
-   
+
      .blog-title-wrapper {
        text-align: center;
      }
    }
-   
+
    @media screen and (max-width: 479px) {
      .photo-link-block {
        margin-bottom: 0px;
      }
-   
+
      .photo-row {
        margin-bottom: 40px;
        padding-bottom: 40px;
@@ -653,11 +653,3 @@ footer span:not(:last-child):after {
 
     background: #f4f4f4;
 }
-
-
-
-
-
-
-
-
