@@ -653,3 +653,18 @@ footer span:not(:last-child):after {
 
     background: #f4f4f4;
 }
+
+
+
+.logo {
+         background: url("/static/logo.png") no-repeat;
+         width: 200px;
+         height: 100px;
+
+
+
+         display: block;
+         text-indent: -9999px;
+
+
+}
