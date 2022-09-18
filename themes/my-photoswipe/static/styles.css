@@ -637,7 +637,6 @@ footer span:not(:last-child):after {
      .photo-link-block {
        margin-bottom: 0px;
      }
-
      .photo-row {
        margin-bottom: 40px;
        padding-bottom: 40px;
@@ -646,25 +645,16 @@ footer span:not(:last-child):after {
 
 
 
-
-
-
-   .w-nav {
-
+/* Customize */
+.w-nav {
     background: #f4f4f4;
+    padding-left: 2em;
 }
-
-
 
 .logo {
          background: url("/static/logo.png") no-repeat;
          width: 200px;
          height: 100px;
-
-
-
          display: block;
          text-indent: -9999px;
-
-
 }
